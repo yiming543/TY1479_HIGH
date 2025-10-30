@@ -1,0 +1,4 @@
+D:/yiming/00work/TY1479_HIGH_V03.X/_build/TY1479_HIGH_L_V03/default/CMakeFiles/TY1479_HIGH_L_V03_default_default_XC8_compile.dir
+D:/yiming/00work/TY1479_HIGH_V03.X/_build/TY1479_HIGH_L_V03/default/CMakeFiles/TY1479_HIGH_L_V03_default_image_OBhppBsu.dir
+D:/yiming/00work/TY1479_HIGH_V03.X/_build/TY1479_HIGH_L_V03/default/CMakeFiles/edit_cache.dir
+D:/yiming/00work/TY1479_HIGH_V03.X/_build/TY1479_HIGH_L_V03/default/CMakeFiles/rebuild_cache.dir
