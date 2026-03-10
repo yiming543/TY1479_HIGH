@@ -1,0 +1,1503 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"63 D:\yiming\work\TOYOTA_RX_serial.X\main.c
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 63:   struct {
+[s S374 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 ]
+[n S374 . b0 b1 RunLight DRL LoBeam HiBeam b6 b7 ]
+"62
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 62: typedef union {
+[u S373 `S374 1 `uc 1 ]
+[n S373 . . Byte ]
+"77
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 77:   struct {
+[s S376 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 ]
+[n S376 . b0 b1 b2 b3 b4 turnLight_L turnLight_R b7 ]
+"76
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 76: typedef union {
+[u S375 `S376 1 `uc 1 ]
+[n S375 . . Byte ]
+"91
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 91:   struct {
+[s S378 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 :1 `a 1 ]
+[n S378 . turnLight_R turnLight_L HiBeam LoBeam DRL RunLight b6 b7 ]
+"90
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 90: typedef union {
+[u S377 `S378 1 `uc 1 ]
+[n S377 . . Byte ]
+"2193 c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2193:     struct {
+[s S115 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S115 . LATA0 LATA1 LATA2 LATA3 LATA4 LATA5 LATA6 LATA7 ]
+"2192
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2192: typedef union {
+[u S114 `S115 1 ]
+[n S114 . . ]
+"2204
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2204: extern volatile LATAbits_t LATAbits __attribute__((address(0x10C)));
+[v _LATAbits `VS114 ~T0 @X0 0 e@268 ]
+"2317
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2317:     struct {
+[s S119 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S119 . LATC0 LATC1 LATC2 LATC3 LATC4 LATC5 LATC6 LATC7 ]
+"2316
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2316: typedef union {
+[u S118 `S119 1 ]
+[n S118 . . ]
+"2328
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2328: extern volatile LATCbits_t LATCbits __attribute__((address(0x10E)));
+[v _LATCbits `VS118 ~T0 @X0 0 e@270 ]
+"5186
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5186: extern volatile unsigned char CCP3CON __attribute__((address(0x313)));
+[v _CCP3CON `Vuc ~T0 @X0 0 e@787 ]
+[p mainexit ]
+"74 D:\yiming\work\TOYOTA_RX_serial.X\cmake\TOYOTA_RX\default.production\..\..\../mcc_generated_files/mcc.h
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\cmake\TOYOTA_RX\default.production\..\..\../mcc_generated_files/mcc.h: 74: void SYSTEM_Initialize(void);
+[v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
+"582 D:\yiming\work\TOYOTA_RX_serial.X\main.c
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 582:     CCP3_SetCallBack(CCP3_EvenHandler);
+[v _CCP3_SetCallBack `(i ~T0 @X0 0 e? ]
+[v F3153 `(v ~T0 @X0 0 tf ]
+"261 D:\yiming\work\TOYOTA_RX_serial.X\cmake\TOYOTA_RX\default.production\..\..\../mcc_generated_files/tmr0.h
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\cmake\TOYOTA_RX\default.production\..\..\../mcc_generated_files/tmr0.h: 261:  void TMR0_SetInterruptHandler(void (* InterruptHandler)(void));
+[v _TMR0_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F3153 ]
+"357 c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 357:     struct {
+[s S31 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . IOCIF INTF TMR0IF IOCIE INTE TMR0IE PEIE GIE ]
+"367
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 367:     struct {
+[s S32 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S32 . . T0IF . T0IE ]
+"356
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 356: typedef union {
+[u S30 `S31 1 `S32 1 ]
+[n S30 . . . ]
+"374
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 374: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS30 ~T0 @X0 0 e@11 ]
+"54 c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 54: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"74
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 74: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"94
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"177
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 177: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"197
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 197: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"221
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 221: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"241
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 241: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"261
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 261: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"313
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 313: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"333
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 333: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"353
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 353: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"431
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 431: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"493
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 493: __asm("PORTB equ 0Dh");
+[; <" PORTB equ 0Dh ;# ">
+"555
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 555: __asm("PORTC equ 0Eh");
+[; <" PORTC equ 0Eh ;# ">
+"617
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 617: __asm("PORTE equ 010h");
+[; <" PORTE equ 010h ;# ">
+"638
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 638: __asm("PIR1 equ 011h");
+[; <" PIR1 equ 011h ;# ">
+"700
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 700: __asm("PIR2 equ 012h");
+[; <" PIR2 equ 012h ;# ">
+"757
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 757: __asm("PIR3 equ 013h");
+[; <" PIR3 equ 013h ;# ">
+"803
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 803: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"823
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 823: __asm("TMR1 equ 016h");
+[; <" TMR1 equ 016h ;# ">
+"830
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 830: __asm("TMR1L equ 016h");
+[; <" TMR1L equ 016h ;# ">
+"850
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 850: __asm("TMR1H equ 017h");
+[; <" TMR1H equ 017h ;# ">
+"870
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 870: __asm("T1CON equ 018h");
+[; <" T1CON equ 018h ;# ">
+"942
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 942: __asm("T1GCON equ 019h");
+[; <" T1GCON equ 019h ;# ">
+"1019
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1019: __asm("TMR2 equ 01Ah");
+[; <" TMR2 equ 01Ah ;# ">
+"1039
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1039: __asm("PR2 equ 01Bh");
+[; <" PR2 equ 01Bh ;# ">
+"1059
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1059: __asm("T2CON equ 01Ch");
+[; <" T2CON equ 01Ch ;# ">
+"1130
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1130: __asm("CPSCON0 equ 01Eh");
+[; <" CPSCON0 equ 01Eh ;# ">
+"1184
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1184: __asm("CPSCON1 equ 01Fh");
+[; <" CPSCON1 equ 01Fh ;# ">
+"1224
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1224: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"1286
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1286: __asm("TRISB equ 08Dh");
+[; <" TRISB equ 08Dh ;# ">
+"1348
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1348: __asm("TRISC equ 08Eh");
+[; <" TRISC equ 08Eh ;# ">
+"1410
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1410: __asm("TRISE equ 090h");
+[; <" TRISE equ 090h ;# ">
+"1431
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1431: __asm("PIE1 equ 091h");
+[; <" PIE1 equ 091h ;# ">
+"1493
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1493: __asm("PIE2 equ 092h");
+[; <" PIE2 equ 092h ;# ">
+"1550
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1550: __asm("PIE3 equ 093h");
+[; <" PIE3 equ 093h ;# ">
+"1596
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1596: __asm("OPTION_REG equ 095h");
+[; <" OPTION_REG equ 095h ;# ">
+"1679
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1679: __asm("PCON equ 096h");
+[; <" PCON equ 096h ;# ">
+"1730
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1730: __asm("WDTCON equ 097h");
+[; <" WDTCON equ 097h ;# ">
+"1789
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1789: __asm("OSCTUNE equ 098h");
+[; <" OSCTUNE equ 098h ;# ">
+"1847
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1847: __asm("OSCCON equ 099h");
+[; <" OSCCON equ 099h ;# ">
+"1919
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1919: __asm("OSCSTAT equ 09Ah");
+[; <" OSCSTAT equ 09Ah ;# ">
+"1981
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1981: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"1988
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1988: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"2008
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2008: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"2028
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2028: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"2117
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2117: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"2189
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2189: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"2251
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2251: __asm("LATB equ 010Dh");
+[; <" LATB equ 010Dh ;# ">
+"2313
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2313: __asm("LATC equ 010Eh");
+[; <" LATC equ 010Eh ;# ">
+"2375
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2375: __asm("LATE equ 0110h");
+[; <" LATE equ 0110h ;# ">
+"2396
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2396: __asm("CM1CON0 equ 0111h");
+[; <" CM1CON0 equ 0111h ;# ">
+"2453
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2453: __asm("CM1CON1 equ 0112h");
+[; <" CM1CON1 equ 0112h ;# ">
+"2519
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2519: __asm("CM2CON0 equ 0113h");
+[; <" CM2CON0 equ 0113h ;# ">
+"2576
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2576: __asm("CM2CON1 equ 0114h");
+[; <" CM2CON1 equ 0114h ;# ">
+"2642
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2642: __asm("CMOUT equ 0115h");
+[; <" CMOUT equ 0115h ;# ">
+"2668
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2668: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"2695
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2695: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"2771
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2771: __asm("DACCON0 equ 0118h");
+[; <" DACCON0 equ 0118h ;# ">
+"2832
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2832: __asm("DACCON1 equ 0119h");
+[; <" DACCON1 equ 0119h ;# ">
+"2884
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2884: __asm("SRCON0 equ 011Ah");
+[; <" SRCON0 equ 011Ah ;# ">
+"2955
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2955: __asm("SRCON1 equ 011Bh");
+[; <" SRCON1 equ 011Bh ;# ">
+"3017
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3017: __asm("APFCON equ 011Dh");
+[; <" APFCON equ 011Dh ;# ">
+"3073
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3073: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"3131
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3131: __asm("ANSELB equ 018Dh");
+[; <" ANSELB equ 018Dh ;# ">
+"3189
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3189: __asm("EEADR equ 0191h");
+[; <" EEADR equ 0191h ;# ">
+"3196
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3196: __asm("EEADRL equ 0191h");
+[; <" EEADRL equ 0191h ;# ">
+"3216
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3216: __asm("EEADRH equ 0192h");
+[; <" EEADRH equ 0192h ;# ">
+"3236
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3236: __asm("EEDAT equ 0193h");
+[; <" EEDAT equ 0193h ;# ">
+"3243
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3243: __asm("EEDATL equ 0193h");
+[; <" EEDATL equ 0193h ;# ">
+"3248
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3248: __asm("EEDATA equ 0193h");
+[; <" EEDATA equ 0193h ;# ">
+"3281
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3281: __asm("EEDATH equ 0194h");
+[; <" EEDATH equ 0194h ;# ">
+"3301
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3301: __asm("EECON1 equ 0195h");
+[; <" EECON1 equ 0195h ;# ">
+"3363
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3363: __asm("EECON2 equ 0196h");
+[; <" EECON2 equ 0196h ;# ">
+"3383
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3383: __asm("RCREG equ 0199h");
+[; <" RCREG equ 0199h ;# ">
+"3403
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3403: __asm("TXREG equ 019Ah");
+[; <" TXREG equ 019Ah ;# ">
+"3423
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3423: __asm("SP1BRG equ 019Bh");
+[; <" SP1BRG equ 019Bh ;# ">
+"3430
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3430: __asm("SP1BRGL equ 019Bh");
+[; <" SP1BRGL equ 019Bh ;# ">
+"3435
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3435: __asm("SPBRG equ 019Bh");
+[; <" SPBRG equ 019Bh ;# ">
+"3439
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3439: __asm("SPBRGL equ 019Bh");
+[; <" SPBRGL equ 019Bh ;# ">
+"3484
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3484: __asm("SP1BRGH equ 019Ch");
+[; <" SP1BRGH equ 019Ch ;# ">
+"3489
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3489: __asm("SPBRGH equ 019Ch");
+[; <" SPBRGH equ 019Ch ;# ">
+"3522
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3522: __asm("RCSTA equ 019Dh");
+[; <" RCSTA equ 019Dh ;# ">
+"3584
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3584: __asm("TXSTA equ 019Eh");
+[; <" TXSTA equ 019Eh ;# ">
+"3646
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3646: __asm("BAUDCON equ 019Fh");
+[; <" BAUDCON equ 019Fh ;# ">
+"3698
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3698: __asm("WPUB equ 020Dh");
+[; <" WPUB equ 020Dh ;# ">
+"3768
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3768: __asm("WPUE equ 0210h");
+[; <" WPUE equ 0210h ;# ">
+"3789
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3789: __asm("SSPBUF equ 0211h");
+[; <" SSPBUF equ 0211h ;# ">
+"3809
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3809: __asm("SSPADD equ 0212h");
+[; <" SSPADD equ 0212h ;# ">
+"3829
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3829: __asm("SSPMSK equ 0213h");
+[; <" SSPMSK equ 0213h ;# ">
+"3849
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3849: __asm("SSPSTAT equ 0214h");
+[; <" SSPSTAT equ 0214h ;# ">
+"3911
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3911: __asm("SSPCON1 equ 0215h");
+[; <" SSPCON1 equ 0215h ;# ">
+"3916
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3916: __asm("SSPCON equ 0215h");
+[; <" SSPCON equ 0215h ;# ">
+"4049
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4049: __asm("SSPCON2 equ 0216h");
+[; <" SSPCON2 equ 0216h ;# ">
+"4111
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4111: __asm("SSPCON3 equ 0217h");
+[; <" SSPCON3 equ 0217h ;# ">
+"4173
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4173: __asm("CCPR1 equ 0291h");
+[; <" CCPR1 equ 0291h ;# ">
+"4180
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4180: __asm("CCPR1L equ 0291h");
+[; <" CCPR1L equ 0291h ;# ">
+"4200
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4200: __asm("CCPR1H equ 0292h");
+[; <" CCPR1H equ 0292h ;# ">
+"4220
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4220: __asm("CCP1CON equ 0293h");
+[; <" CCP1CON equ 0293h ;# ">
+"4302
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4302: __asm("PWM1CON equ 0294h");
+[; <" PWM1CON equ 0294h ;# ">
+"4378
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4378: __asm("CCP1AS equ 0295h");
+[; <" CCP1AS equ 0295h ;# ">
+"4383
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4383: __asm("ECCP1AS equ 0295h");
+[; <" ECCP1AS equ 0295h ;# ">
+"4552
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4552: __asm("PSTR1CON equ 0296h");
+[; <" PSTR1CON equ 0296h ;# ">
+"4596
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4596: __asm("CCPR2 equ 0298h");
+[; <" CCPR2 equ 0298h ;# ">
+"4603
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4603: __asm("CCPR2L equ 0298h");
+[; <" CCPR2L equ 0298h ;# ">
+"4623
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4623: __asm("CCPR2H equ 0299h");
+[; <" CCPR2H equ 0299h ;# ">
+"4643
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4643: __asm("CCP2CON equ 029Ah");
+[; <" CCP2CON equ 029Ah ;# ">
+"4725
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4725: __asm("PWM2CON equ 029Bh");
+[; <" PWM2CON equ 029Bh ;# ">
+"4801
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4801: __asm("CCP2AS equ 029Ch");
+[; <" CCP2AS equ 029Ch ;# ">
+"4806
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4806: __asm("ECCP2AS equ 029Ch");
+[; <" ECCP2AS equ 029Ch ;# ">
+"4975
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4975: __asm("PSTR2CON equ 029Dh");
+[; <" PSTR2CON equ 029Dh ;# ">
+"5019
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5019: __asm("CCPTMRS0 equ 029Eh");
+[; <" CCPTMRS0 equ 029Eh ;# ">
+"5107
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5107: __asm("CCPTMRS1 equ 029Fh");
+[; <" CCPTMRS1 equ 029Fh ;# ">
+"5141
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5141: __asm("CCPR3 equ 0311h");
+[; <" CCPR3 equ 0311h ;# ">
+"5148
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5148: __asm("CCPR3L equ 0311h");
+[; <" CCPR3L equ 0311h ;# ">
+"5168
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5168: __asm("CCPR3H equ 0312h");
+[; <" CCPR3H equ 0312h ;# ">
+"5188
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5188: __asm("CCP3CON equ 0313h");
+[; <" CCP3CON equ 0313h ;# ">
+"5270
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5270: __asm("PWM3CON equ 0314h");
+[; <" PWM3CON equ 0314h ;# ">
+"5346
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5346: __asm("CCP3AS equ 0315h");
+[; <" CCP3AS equ 0315h ;# ">
+"5351
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5351: __asm("ECCP3AS equ 0315h");
+[; <" ECCP3AS equ 0315h ;# ">
+"5520
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5520: __asm("PSTR3CON equ 0316h");
+[; <" PSTR3CON equ 0316h ;# ">
+"5564
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5564: __asm("CCPR4 equ 0318h");
+[; <" CCPR4 equ 0318h ;# ">
+"5571
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5571: __asm("CCPR4L equ 0318h");
+[; <" CCPR4L equ 0318h ;# ">
+"5591
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5591: __asm("CCPR4H equ 0319h");
+[; <" CCPR4H equ 0319h ;# ">
+"5611
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5611: __asm("CCP4CON equ 031Ah");
+[; <" CCP4CON equ 031Ah ;# ">
+"5675
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5675: __asm("CCPR5 equ 031Ch");
+[; <" CCPR5 equ 031Ch ;# ">
+"5682
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5682: __asm("CCPR5L equ 031Ch");
+[; <" CCPR5L equ 031Ch ;# ">
+"5702
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5702: __asm("CCPR5H equ 031Dh");
+[; <" CCPR5H equ 031Dh ;# ">
+"5722
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5722: __asm("CCP5CON equ 031Eh");
+[; <" CCP5CON equ 031Eh ;# ">
+"5786
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5786: __asm("IOCBP equ 0394h");
+[; <" IOCBP equ 0394h ;# ">
+"5856
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5856: __asm("IOCBN equ 0395h");
+[; <" IOCBN equ 0395h ;# ">
+"5926
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5926: __asm("IOCBF equ 0396h");
+[; <" IOCBF equ 0396h ;# ">
+"5996
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5996: __asm("TMR4 equ 0415h");
+[; <" TMR4 equ 0415h ;# ">
+"6016
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6016: __asm("PR4 equ 0416h");
+[; <" PR4 equ 0416h ;# ">
+"6036
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6036: __asm("T4CON equ 0417h");
+[; <" T4CON equ 0417h ;# ">
+"6107
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6107: __asm("TMR6 equ 041Ch");
+[; <" TMR6 equ 041Ch ;# ">
+"6127
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6127: __asm("PR6 equ 041Dh");
+[; <" PR6 equ 041Dh ;# ">
+"6147
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6147: __asm("T6CON equ 041Eh");
+[; <" T6CON equ 041Eh ;# ">
+"6218
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6218: __asm("LCDCON equ 0791h");
+[; <" LCDCON equ 0791h ;# ">
+"6289
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6289: __asm("LCDPS equ 0792h");
+[; <" LCDPS equ 0792h ;# ">
+"6359
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6359: __asm("LCDREF equ 0793h");
+[; <" LCDREF equ 0793h ;# ">
+"6411
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6411: __asm("LCDCST equ 0794h");
+[; <" LCDCST equ 0794h ;# ">
+"6451
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6451: __asm("LCDRL equ 0795h");
+[; <" LCDRL equ 0795h ;# ">
+"6529
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6529: __asm("LCDSE0 equ 0798h");
+[; <" LCDSE0 equ 0798h ;# ">
+"6591
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6591: __asm("LCDSE1 equ 0799h");
+[; <" LCDSE1 equ 0799h ;# ">
+"6653
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6653: __asm("LCDDATA0 equ 07A0h");
+[; <" LCDDATA0 equ 07A0h ;# ">
+"6715
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6715: __asm("LCDDATA1 equ 07A1h");
+[; <" LCDDATA1 equ 07A1h ;# ">
+"6777
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6777: __asm("LCDDATA3 equ 07A3h");
+[; <" LCDDATA3 equ 07A3h ;# ">
+"6839
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6839: __asm("LCDDATA4 equ 07A4h");
+[; <" LCDDATA4 equ 07A4h ;# ">
+"6901
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6901: __asm("LCDDATA6 equ 07A6h");
+[; <" LCDDATA6 equ 07A6h ;# ">
+"6963
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6963: __asm("LCDDATA7 equ 07A7h");
+[; <" LCDDATA7 equ 07A7h ;# ">
+"7025
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7025: __asm("LCDDATA9 equ 07A9h");
+[; <" LCDDATA9 equ 07A9h ;# ">
+"7087
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7087: __asm("LCDDATA10 equ 07AAh");
+[; <" LCDDATA10 equ 07AAh ;# ">
+"7149
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7149: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"7181
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7181: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"7201
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7201: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"7221
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7221: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"7241
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7241: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"7261
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7261: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"7281
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7281: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"7301
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7301: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"7321
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7321: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"7341
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7341: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"7361
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7361: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"104 D:\yiming\work\TOYOTA_RX_serial.X\main.c
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 104: uint8_t rx_data = 0;
+[v _rx_data `uc ~T0 @X0 1 e ]
+[i _rx_data
+-> -> 0 `i `uc
+]
+"105
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 105: volatile _Bool data_1byte_OK = 0;
+[v _data_1byte_OK `Va ~T0 @X0 1 e ]
+[i _data_1byte_OK
+-> -> 0 `i `a
+]
+"106
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 106: _Bool fFrame_OK = 0;
+[v _fFrame_OK `a ~T0 @X0 1 e ]
+[i _fFrame_OK
+-> -> 0 `i `a
+]
+"107
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 107: uint8_t data_buf[11];
+[v _data_buf `uc ~T0 @X0 -> 11 `i e ]
+"108
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 108: uint8_t step = 0;
+[v _step `uc ~T0 @X0 1 e ]
+[i _step
+-> -> 0 `i `uc
+]
+"110
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 110: flag_D2 D2;
+[v _D2 `S373 ~T0 @X0 1 e ]
+"111
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 111: flag_D3 D3;
+[v _D3 `S375 ~T0 @X0 1 e ]
+"112
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 112: flag_CS_index csFlag;
+[v _csFlag `S377 ~T0 @X0 1 e ]
+"114
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 114: _Bool fSerialStart_Left = 0;
+[v _fSerialStart_Left `a ~T0 @X0 1 e ]
+[i _fSerialStart_Left
+-> -> 0 `i `a
+]
+"115
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 115: _Bool fSerialStart_Right = 0;
+[v _fSerialStart_Right `a ~T0 @X0 1 e ]
+[i _fSerialStart_Right
+-> -> 0 `i `a
+]
+"116
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 116: volatile uint8_t LED_STEP = 0;
+[v _LED_STEP `Vuc ~T0 @X0 1 e ]
+[i _LED_STEP
+-> -> 0 `i `uc
+]
+"120
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 120: static uint8_t CS[64] = {
+[v _CS `uc ~T0 @X0 -> 64 `i s ]
+[i _CS
+:U ..
+-> -> 76 `i `uc
+-> -> 159 `i `uc
+-> -> 237 `i `uc
+-> -> 98 `i `uc
+-> -> 154 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 39 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 115 `i `uc
+-> -> 160 `i `uc
+-> -> 113 `i `uc
+-> -> 1 `i `uc
+-> -> 142 `i `uc
+-> -> 93 `i `uc
+-> -> 47 `i `uc
+-> -> 252 `i `uc
+-> -> 103 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 218 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 18 `i `uc
+-> -> 160 `i `uc
+-> -> 113 `i `uc
+-> -> 1 `i `uc
+-> -> 45 `i `uc
+-> -> 254 `i `uc
+-> -> 140 `i `uc
+-> -> 95 `i `uc
+-> -> 44 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 56 `i `uc
+-> -> 235 `i `uc
+-> -> 153 `i `uc
+-> -> 74 `i `uc
+-> -> 18 `i `uc
+-> -> 193 `i `uc
+-> -> 179 `i `uc
+-> -> 96 `i `uc
+-> -> 239 `i `uc
+-> -> 60 `i `uc
+-> -> 78 `i `uc
+-> -> 157 `i `uc
+-> -> 209 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 108 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 208 `i `uc
+-> -> 3 `i `uc
+-> -> 113 `i `uc
+-> -> 162 `i `uc
+..
+]
+"341
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 341: void LED_output(void) {
+[v _LED_output `(v ~T0 @X0 1 ef ]
+{
+[e :U _LED_output ]
+[f ]
+"342
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 342:   uint8_t crc8 = CS[csFlag.Byte];
+[v _crc8 `uc ~T0 @X0 1 a ]
+[e = _crc8 *U + &U _CS * -> . _csFlag 1 `ux -> -> # *U &U _CS `ui `ux ]
+"343
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 343:   if (data_buf[10] == crc8) {
+[e $ ! == -> *U + &U _data_buf * -> -> -> 10 `i `ui `ux -> -> # *U &U _data_buf `ui `ux `i -> _crc8 `i 380  ]
+{
+"345
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 345:     if (csFlag.RunLight == 1) {
+[e $ ! == -> . . _csFlag 0 5 `i -> 1 `i 381  ]
+{
+"346
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 346:       do { LATAbits.LATA1 = 1; } while(0);
+[e :U 384 ]
+{
+[e = . . _LATAbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 383 ]
+"347
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 347:     } else {
+}
+[e $U 385  ]
+[e :U 381 ]
+{
+"348
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 348:       do { LATAbits.LATA1 = 0; } while(0);
+[e :U 388 ]
+{
+[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 387 ]
+"349
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 349:     }
+}
+[e :U 385 ]
+"352
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 352:     if (csFlag.DRL == 1) {
+[e $ ! == -> . . _csFlag 0 4 `i -> 1 `i 389  ]
+{
+"354
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 354:     } else {
+}
+[e $U 390  ]
+[e :U 389 ]
+{
+"356
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 356:     }
+}
+[e :U 390 ]
+"358
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 358:     if ((csFlag.LoBeam == 1) && (csFlag.HiBeam == 0)) {
+[e $ ! && == -> . . _csFlag 0 3 `i -> 1 `i == -> . . _csFlag 0 2 `i -> 0 `i 391  ]
+{
+"360
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 360:       do { LATCbits.LATC2 = 1; } while(0);
+[e :U 394 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 393 ]
+"361
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 361:       do { LATAbits.LATA2 = 1; } while(0);
+[e :U 397 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 396 ]
+"362
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 362:     } else if ((csFlag.LoBeam == 1) && (csFlag.HiBeam == 1)) {
+}
+[e $U 398  ]
+[e :U 391 ]
+[e $ ! && == -> . . _csFlag 0 3 `i -> 1 `i == -> . . _csFlag 0 2 `i -> 1 `i 399  ]
+{
+"364
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 364:       do { LATCbits.LATC2 = 1; } while(0);
+[e :U 402 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 401 ]
+"365
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 365:       do { LATAbits.LATA2 = 0; } while(0);
+[e :U 405 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 404 ]
+"366
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 366:     } else {
+}
+[e $U 406  ]
+[e :U 399 ]
+{
+"368
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 368:       do { LATCbits.LATC2 = 0; } while(0);
+[e :U 409 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 408 ]
+"369
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 369:     }
+}
+[e :U 406 ]
+[e :U 398 ]
+"372
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 372:       if (csFlag.turnLight_L == 1) {
+[e $ ! == -> . . _csFlag 0 1 `i -> 1 `i 410  ]
+{
+"374
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 374:       } else {
+}
+[e $U 411  ]
+[e :U 410 ]
+{
+"376
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 376:       }
+}
+[e :U 411 ]
+"379
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 379:       if (csFlag.turnLight_R == 1) {
+[e $ ! == -> . . _csFlag 0 0 `i -> 1 `i 412  ]
+{
+"381
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 381:       } else {
+}
+[e $U 413  ]
+[e :U 412 ]
+{
+"383
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 383:       }
+}
+[e :U 413 ]
+"384
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 384:     }
+}
+[e :U 380 ]
+"385
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 385:   }
+[e :UE 379 ]
+}
+"387
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 387:   void check_input(void) {
+[v _check_input `(v ~T0 @X0 1 ef ]
+{
+[e :U _check_input ]
+[f ]
+"388
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 388:     D2.Byte = data_buf[2];
+[e = . _D2 1 *U + &U _data_buf * -> -> -> 2 `i `ui `ux -> -> # *U &U _data_buf `ui `ux ]
+"389
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 389:     D3.Byte = data_buf[3];
+[e = . _D3 1 *U + &U _data_buf * -> -> -> 3 `i `ui `ux -> -> # *U &U _data_buf `ui `ux ]
+"390
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 390:     csFlag.Byte = 0;
+[e = . _csFlag 1 -> -> 0 `i `uc ]
+"393
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 393:     if (D2.RunLight == 1)
+[e $ ! == -> . . _D2 0 2 `i -> 1 `i 415  ]
+"394
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 394:       csFlag.RunLight = 1;
+[e = . . _csFlag 0 5 -> -> 1 `i `a ]
+[e $U 416  ]
+"395
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 395:     else
+[e :U 415 ]
+"396
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 396:       csFlag.RunLight = 0;
+[e = . . _csFlag 0 5 -> -> 0 `i `a ]
+[e :U 416 ]
+"399
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 399:     if (D2.DRL == 1)
+[e $ ! == -> . . _D2 0 3 `i -> 1 `i 417  ]
+"400
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 400:       csFlag.DRL = 1;
+[e = . . _csFlag 0 4 -> -> 1 `i `a ]
+[e $U 418  ]
+"401
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 401:     else
+[e :U 417 ]
+"402
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 402:       csFlag.DRL = 0;
+[e = . . _csFlag 0 4 -> -> 0 `i `a ]
+[e :U 418 ]
+"405
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 405:     if (D2.LoBeam == 1)
+[e $ ! == -> . . _D2 0 4 `i -> 1 `i 419  ]
+"406
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 406:       csFlag.LoBeam = 1;
+[e = . . _csFlag 0 3 -> -> 1 `i `a ]
+[e $U 420  ]
+"407
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 407:     else
+[e :U 419 ]
+"408
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 408:       csFlag.LoBeam = 0;
+[e = . . _csFlag 0 3 -> -> 0 `i `a ]
+[e :U 420 ]
+"411
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 411:     if (D2.HiBeam == 1)
+[e $ ! == -> . . _D2 0 5 `i -> 1 `i 421  ]
+"412
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 412:       csFlag.HiBeam = 1;
+[e = . . _csFlag 0 2 -> -> 1 `i `a ]
+[e $U 422  ]
+"413
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 413:     else
+[e :U 421 ]
+"414
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 414:       csFlag.HiBeam = 0;
+[e = . . _csFlag 0 2 -> -> 0 `i `a ]
+[e :U 422 ]
+"417
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 417:     if (D3.turnLight_L == 1)
+[e $ ! == -> . . _D3 0 5 `i -> 1 `i 423  ]
+"418
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 418:       csFlag.turnLight_L = 1;
+[e = . . _csFlag 0 1 -> -> 1 `i `a ]
+[e $U 424  ]
+"419
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 419:     else
+[e :U 423 ]
+"420
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 420:       csFlag.turnLight_L = 0;
+[e = . . _csFlag 0 1 -> -> 0 `i `a ]
+[e :U 424 ]
+"423
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 423:     if (D3.turnLight_R == 1)
+[e $ ! == -> . . _D3 0 6 `i -> 1 `i 425  ]
+"424
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 424:       csFlag.turnLight_R = 1;
+[e = . . _csFlag 0 0 -> -> 1 `i `a ]
+[e $U 426  ]
+"425
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 425:     else
+[e :U 425 ]
+"426
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 426:       csFlag.turnLight_R = 0;
+[e = . . _csFlag 0 0 -> -> 0 `i `a ]
+[e :U 426 ]
+"427
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 427:   }
+[e :UE 414 ]
+}
+"429
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 429:   void getFrameData(void) {
+[v _getFrameData `(v ~T0 @X0 1 ef ]
+{
+[e :U _getFrameData ]
+[f ]
+"430
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 430:     if (data_1byte_OK == 1) {
+[e $ ! == -> _data_1byte_OK `i -> 1 `i 428  ]
+{
+"431
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 431:       data_1byte_OK = 0;
+[e = _data_1byte_OK -> -> 0 `i `a ]
+"434
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 434:       switch (step) {
+[e $U 430  ]
+{
+"435
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 435:       case 0:
+[e :U 431 ]
+"436
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 436:         if (rx_data == 0xC8) {
+[e $ ! == -> _rx_data `i -> 200 `i 432  ]
+{
+"437
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 437:           step = 1;
+[e = _step -> -> 1 `i `uc ]
+"438
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 438:           data_buf[0] = rx_data;
+[e = *U + &U _data_buf * -> -> -> 0 `i `ui `ux -> -> # *U &U _data_buf `ui `ux _rx_data ]
+"439
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 439:         } else {
+}
+[e $U 433  ]
+[e :U 432 ]
+{
+"440
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 440:           step = 0;
+[e = _step -> -> 0 `i `uc ]
+"441
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 441:         }
+}
+[e :U 433 ]
+"442
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 442:         break;
+[e $U 429  ]
+"443
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 443:       case 1:
+[e :U 434 ]
+"444
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 444:         if (rx_data == 0x8B) {
+[e $ ! == -> _rx_data `i -> 139 `i 435  ]
+{
+"445
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 445:           data_buf[1] = rx_data;
+[e = *U + &U _data_buf * -> -> -> 1 `i `ui `ux -> -> # *U &U _data_buf `ui `ux _rx_data ]
+"446
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 446:           step = 2;
+[e = _step -> -> 2 `i `uc ]
+"447
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 447:         } else {
+}
+[e $U 436  ]
+[e :U 435 ]
+{
+"448
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 448:           step = 0;
+[e = _step -> -> 0 `i `uc ]
+"449
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 449:         }
+}
+[e :U 436 ]
+"450
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 450:         break;
+[e $U 429  ]
+"451
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 451:       case 2:
+[e :U 437 ]
+"452
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 452:         data_buf[2] = rx_data;
+[e = *U + &U _data_buf * -> -> -> 2 `i `ui `ux -> -> # *U &U _data_buf `ui `ux _rx_data ]
+"453
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 453:         step = 3;
+[e = _step -> -> 3 `i `uc ]
+"454
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 454:         break;
+[e $U 429  ]
+"455
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 455:       case 3:
+[e :U 438 ]
+"456
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 456:         data_buf[3] = rx_data;
+[e = *U + &U _data_buf * -> -> -> 3 `i `ui `ux -> -> # *U &U _data_buf `ui `ux _rx_data ]
+"457
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 457:         step = 4;
+[e = _step -> -> 4 `i `uc ]
+"458
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 458:         break;
+[e $U 429  ]
+"459
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 459:       case 4:
+[e :U 439 ]
+"460
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 460:         data_buf[4] = rx_data;
+[e = *U + &U _data_buf * -> -> -> 4 `i `ui `ux -> -> # *U &U _data_buf `ui `ux _rx_data ]
+"461
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 461:         step = 5;
+[e = _step -> -> 5 `i `uc ]
+"462
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 462:         break;
+[e $U 429  ]
+"463
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 463:       case 5:
+[e :U 440 ]
+"464
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 464:         data_buf[5] = rx_data;
+[e = *U + &U _data_buf * -> -> -> 5 `i `ui `ux -> -> # *U &U _data_buf `ui `ux _rx_data ]
+"465
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 465:         step = 6;
+[e = _step -> -> 6 `i `uc ]
+"466
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 466:         break;
+[e $U 429  ]
+"467
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 467:       case 6:
+[e :U 441 ]
+"468
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 468:         data_buf[6] = rx_data;
+[e = *U + &U _data_buf * -> -> -> 6 `i `ui `ux -> -> # *U &U _data_buf `ui `ux _rx_data ]
+"469
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 469:         step = 7;
+[e = _step -> -> 7 `i `uc ]
+"470
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 470:         break;
+[e $U 429  ]
+"471
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 471:       case 7:
+[e :U 442 ]
+"472
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 472:         data_buf[7] = rx_data;
+[e = *U + &U _data_buf * -> -> -> 7 `i `ui `ux -> -> # *U &U _data_buf `ui `ux _rx_data ]
+"473
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 473:         step = 8;
+[e = _step -> -> 8 `i `uc ]
+"474
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 474:         break;
+[e $U 429  ]
+"475
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 475:       case 8:
+[e :U 443 ]
+"476
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 476:         data_buf[8] = rx_data;
+[e = *U + &U _data_buf * -> -> -> 8 `i `ui `ux -> -> # *U &U _data_buf `ui `ux _rx_data ]
+"477
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 477:         step = 9;
+[e = _step -> -> 9 `i `uc ]
+"478
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 478:         break;
+[e $U 429  ]
+"479
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 479:       case 9:
+[e :U 444 ]
+"480
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 480:         data_buf[9] = rx_data;
+[e = *U + &U _data_buf * -> -> -> 9 `i `ui `ux -> -> # *U &U _data_buf `ui `ux _rx_data ]
+"481
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 481:         step = 10;
+[e = _step -> -> 10 `i `uc ]
+"482
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 482:         break;
+[e $U 429  ]
+"483
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 483:       case 10:
+[e :U 445 ]
+"484
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 484:         data_buf[10] = rx_data;
+[e = *U + &U _data_buf * -> -> -> 10 `i `ui `ux -> -> # *U &U _data_buf `ui `ux _rx_data ]
+"485
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 485:         fFrame_OK = 1;
+[e = _fFrame_OK -> -> 1 `i `a ]
+"486
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 486:         step = 0;
+[e = _step -> -> 0 `i `uc ]
+"487
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 487:         break;
+[e $U 429  ]
+"488
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 488:       default:
+[e :U 446 ]
+"489
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 489:         step = 0;
+[e = _step -> -> 0 `i `uc ]
+"490
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 490:         break;
+[e $U 429  ]
+"491
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 491:       }
+}
+[e $U 429  ]
+[e :U 430 ]
+[e [\ _step , $ -> 0 `i 431
+ , $ -> 1 `i 434
+ , $ -> 2 `i 437
+ , $ -> 3 `i 438
+ , $ -> 4 `i 439
+ , $ -> 5 `i 440
+ , $ -> 6 `i 441
+ , $ -> 7 `i 442
+ , $ -> 8 `i 443
+ , $ -> 9 `i 444
+ , $ -> 10 `i 445
+ 446 ]
+[e :U 429 ]
+"492
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 492:     }
+}
+[e :U 428 ]
+"493
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 493:   }
+[e :UE 427 ]
+}
+"495
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 495:   void CCP3_EvenHandler(uint16_t capturedValue) {
+[v _CCP3_EvenHandler `(v ~T0 @X0 1 ef1`us ]
+{
+[e :U _CCP3_EvenHandler ]
+[v _capturedValue `us ~T0 @X0 1 r1 ]
+[f ]
+"496
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 496:     static uint16_t pluse_width_LO = 0;
+[v F3219 `us ~T0 @X0 1 s pluse_width_LO ]
+[i F3219
+-> -> 0 `i `us
+]
+"497
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 497:     static uint16_t pluse_width_HI = 0;
+[v F3220 `us ~T0 @X0 1 s pluse_width_HI ]
+[i F3220
+-> -> 0 `i `us
+]
+"498
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 498:     static uint8_t HI_us = 0;
+[v F3221 `uc ~T0 @X0 1 s HI_us ]
+[i F3221
+-> -> 0 `i `uc
+]
+"499
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 499:     static uint8_t LO_us = 0;
+[v F3222 `uc ~T0 @X0 1 s LO_us ]
+[i F3222
+-> -> 0 `i `uc
+]
+"500
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 500:     static uint8_t diff_us = 0;
+[v F3223 `uc ~T0 @X0 1 s diff_us ]
+[i F3223
+-> -> 0 `i `uc
+]
+"501
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 501:     static uint16_t falling_edge_time = 0;
+[v F3224 `us ~T0 @X0 1 s falling_edge_time ]
+[i F3224
+-> -> 0 `i `us
+]
+"502
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 502:     static uint16_t rising_edge_time = 0;
+[v F3225 `us ~T0 @X0 1 s rising_edge_time ]
+[i F3225
+-> -> 0 `i `us
+]
+"503
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 503:     static _Bool rise_edge_flag = 0;
+[v F3226 `a ~T0 @X0 1 s rise_edge_flag ]
+[i F3226
+-> -> 0 `i `a
+]
+"504
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 504:     static _Bool fHead = 0;
+[v F3227 `a ~T0 @X0 1 s fHead ]
+[i F3227
+-> -> 0 `i `a
+]
+"505
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 505:     static uint8_t data_cnt = 0;
+[v F3228 `uc ~T0 @X0 1 s data_cnt ]
+[i F3228
+-> -> 0 `i `uc
+]
+"508
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 508:     if (CCP3CON == 0x04) {
+[e $ ! == -> _CCP3CON `i -> 4 `i 448  ]
+{
+"509
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 509:       falling_edge_time = capturedValue;
+[e = F3224 _capturedValue ]
+"510
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 510:       CCP3CON = 0x05;
+[e = _CCP3CON -> -> 5 `i `uc ]
+"511
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 511:       if (rise_edge_flag == 1) {
+[e $ ! == -> F3226 `i -> 1 `i 449  ]
+{
+"512
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 512:         rise_edge_flag = 0;
+[e = F3226 -> -> 0 `i `a ]
+"514
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 514:         if (falling_edge_time >= rising_edge_time) {
+[e $ ! >= -> F3224 `ui -> F3225 `ui 450  ]
+{
+"515
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 515:           pluse_width_HI = falling_edge_time - rising_edge_time;
+[e = F3220 -> - -> F3224 `ui -> F3225 `ui `us ]
+"516
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 516:         } else {
+}
+[e $U 451  ]
+[e :U 450 ]
+{
+"517
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 517:           pluse_width_HI = (0xffff - rising_edge_time) + falling_edge_time;
+[e = F3220 -> + - -> 65535 `ui -> F3225 `ui -> F3224 `ui `us ]
+"518
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 518:         }
+}
+[e :U 451 ]
+"519
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 519:         LO_us = (pluse_width_LO >> 3) & 0xff;
+[e = F3222 -> & >> -> F3219 `ui -> 3 `i -> -> 255 `i `ui `uc ]
+"520
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 520:         HI_us = (pluse_width_HI >> 3) & 0xff;
+[e = F3221 -> & >> -> F3220 `ui -> 3 `i -> -> 255 `i `ui `uc ]
+"521
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 521:         if (HI_us > LO_us)
+[e $ ! > -> F3221 `i -> F3222 `i 452  ]
+"522
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 522:           diff_us = HI_us - LO_us;
+[e = F3223 -> - -> F3221 `i -> F3222 `i `uc ]
+[e $U 453  ]
+"523
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 523:         else
+[e :U 452 ]
+"524
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 524:           diff_us = LO_us - HI_us;
+[e = F3223 -> - -> F3222 `i -> F3221 `i `uc ]
+[e :U 453 ]
+"526
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 526:         if (fHead == 0) {
+[e $ ! == -> F3227 `i -> 0 `i 454  ]
+{
+"527
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 527:           do { LATCbits.LATC4 = 1; } while(0);
+[e :U 457 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 456 ]
+"529
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 529:           if (diff_us < (16)) {
+[e $ ! < -> F3223 `i -> 16 `i 458  ]
+{
+"531
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 531:             fHead = 1;
+[e = F3227 -> -> 1 `i `a ]
+"532
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 532:             data_cnt = 0;
+[e = F3228 -> -> 0 `i `uc ]
+"533
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 533:             do { LATCbits.LATC4 = 0; } while(0);
+[e :U 461 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 460 ]
+"534
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 534:           }
+}
+[e :U 458 ]
+"535
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 535:         } else {
+}
+[e $U 462  ]
+[e :U 454 ]
+{
+"537
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 537:           if (diff_us < (16)) {
+[e $ ! < -> F3223 `i -> 16 `i 463  ]
+{
+"539
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 539:             do { LATCbits.LATC4 = 0; } while(0);
+[e :U 466 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 465 ]
+"540
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 540:             rx_data &= ~(1 << data_cnt);
+[e =& _rx_data -> ~ << -> 1 `i -> F3228 `i `uc ]
+"541
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 541:           } else {
+}
+[e $U 467  ]
+[e :U 463 ]
+{
+"543
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 543:             do { LATCbits.LATC4 = 1; } while(0);
+[e :U 470 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 469 ]
+"544
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 544:             rx_data |= (1 << data_cnt);
+[e =| _rx_data -> << -> 1 `i -> F3228 `i `uc ]
+"545
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 545:           }
+}
+[e :U 467 ]
+"547
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 547:           data_cnt++;
+[e ++ F3228 -> -> 1 `i `uc ]
+"548
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 548:           if (data_cnt > 7) {
+[e $ ! > -> F3228 `i -> 7 `i 471  ]
+{
+"549
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 549:             fHead = 0;
+[e = F3227 -> -> 0 `i `a ]
+"550
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 550:             data_1byte_OK = 1;
+[e = _data_1byte_OK -> -> 1 `i `a ]
+"551
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 551:           }
+}
+[e :U 471 ]
+"552
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 552:         }
+}
+[e :U 462 ]
+"553
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 553:       }
+}
+[e :U 449 ]
+"555
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 555:     }
+}
+[e $U 472  ]
+"557
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 557:     else if (CCP3CON == 0x05) {
+[e :U 448 ]
+[e $ ! == -> _CCP3CON `i -> 5 `i 473  ]
+{
+"558
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 558:       rising_edge_time = capturedValue;
+[e = F3225 _capturedValue ]
+"559
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 559:       CCP3CON = 0x04;
+[e = _CCP3CON -> -> 4 `i `uc ]
+"561
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 561:       if (rising_edge_time >= falling_edge_time) {
+[e $ ! >= -> F3225 `ui -> F3224 `ui 474  ]
+{
+"562
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 562:         pluse_width_LO = rising_edge_time - falling_edge_time;
+[e = F3219 -> - -> F3225 `ui -> F3224 `ui `us ]
+"563
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 563:       } else {
+}
+[e $U 475  ]
+[e :U 474 ]
+{
+"564
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 564:         pluse_width_LO = (0xffff - falling_edge_time) + rising_edge_time;
+[e = F3219 -> + - -> 65535 `ui -> F3224 `ui -> F3225 `ui `us ]
+"565
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 565:       }
+}
+[e :U 475 ]
+"566
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 566:       rise_edge_flag = 1;
+[e = F3226 -> -> 1 `i `a ]
+"567
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 567:     }
+}
+[e :U 473 ]
+[e :U 472 ]
+"568
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 568:   }
+[e :UE 447 ]
+}
+"569
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 569:   void TMR0_EvenHandler(void) {
+[v _TMR0_EvenHandler `(v ~T0 @X0 1 ef ]
+{
+[e :U _TMR0_EvenHandler ]
+[f ]
+"571
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 571:     if ((fSerialStart_Right == 1) || (fSerialStart_Left == 1)) {
+[e $ ! || == -> _fSerialStart_Right `i -> 1 `i == -> _fSerialStart_Left `i -> 1 `i 477  ]
+{
+"572
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 572:       LED_STEP++;
+[e ++ _LED_STEP -> -> 1 `i `Vuc ]
+"573
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 573:     }
+}
+[e :U 477 ]
+"574
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 574:   }
+[e :UE 476 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"579
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 579:   void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"581
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 581:     SYSTEM_Initialize();
+[e ( _SYSTEM_Initialize ..  ]
+"582
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 582:     CCP3_SetCallBack(CCP3_EvenHandler);
+[e ( _CCP3_SetCallBack &U _CCP3_EvenHandler ]
+"583
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 583:     TMR0_SetInterruptHandler(TMR0_EvenHandler);
+[e ( _TMR0_SetInterruptHandler (1 &U _TMR0_EvenHandler ]
+"589
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 589:     (INTCONbits.GIE = 1);
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"592
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 592:     (INTCONbits.PEIE = 1);
+[e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
+"600
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 600:     while (1) {
+[e :U 480 ]
+{
+"601
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 601:       getFrameData();
+[e ( _getFrameData ..  ]
+"602
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 602:       check_input();
+[e ( _check_input ..  ]
+"603
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 603:       LED_output();
+[e ( _LED_output ..  ]
+"604
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 604:     }
+}
+[e :U 479 ]
+[e $U 480  ]
+[e :U 481 ]
+"605
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\main.c: 605:   }
+[e :UE 478 ]
+}

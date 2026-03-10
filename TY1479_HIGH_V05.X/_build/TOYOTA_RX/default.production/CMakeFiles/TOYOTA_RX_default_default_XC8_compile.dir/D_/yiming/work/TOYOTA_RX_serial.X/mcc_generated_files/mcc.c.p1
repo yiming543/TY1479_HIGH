@@ -1,0 +1,616 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"136 D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files/pin_manager.h
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files/pin_manager.h: 136: void PIN_MANAGER_Initialize (void);
+[v _PIN_MANAGER_Initialize `(v ~T0 @X0 0 ef ]
+"87 D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files/mcc.h
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files/mcc.h: 87: void OSCILLATOR_Initialize(void);
+[v _OSCILLATOR_Initialize `(v ~T0 @X0 0 ef ]
+"99
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files/mcc.h: 99: void WDT_Initialize(void);
+[v _WDT_Initialize `(v ~T0 @X0 0 ef ]
+"123 D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files/eccp3.h
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files/eccp3.h: 123: void ECCP3_Initialize(void);
+[v _ECCP3_Initialize `(v ~T0 @X0 0 ef ]
+"103 D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files/tmr2.h
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files/tmr2.h: 103: void TMR2_Initialize(void);
+[v _TMR2_Initialize `(v ~T0 @X0 0 ef ]
+"100 D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files/tmr1.h
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files/tmr1.h: 100: void TMR1_Initialize(void);
+[v _TMR1_Initialize `(v ~T0 @X0 0 ef ]
+"104 D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files/tmr0.h
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files/tmr0.h: 104: void TMR0_Initialize(void);
+[v _TMR0_Initialize `(v ~T0 @X0 0 ef ]
+"1845 c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1845: extern volatile unsigned char OSCCON __attribute__((address(0x099)));
+[v _OSCCON `Vuc ~T0 @X0 0 e@153 ]
+"1787
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1787: extern volatile unsigned char OSCTUNE __attribute__((address(0x098)));
+[v _OSCTUNE `Vuc ~T0 @X0 0 e@152 ]
+"2666
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2666: extern volatile unsigned char BORCON __attribute__((address(0x116)));
+[v _BORCON `Vuc ~T0 @X0 0 e@278 ]
+"8349
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 8349: extern volatile __bit PLLR __attribute__((address(0x4D6)));
+[v _PLLR `Vb ~T0 @X0 0 e@1238 ]
+"1728
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1728: extern volatile unsigned char WDTCON __attribute__((address(0x097)));
+[v _WDTCON `Vuc ~T0 @X0 0 e@151 ]
+"54 c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 54: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"74
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 74: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"94
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"177
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 177: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"197
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 197: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"221
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 221: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"241
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 241: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"261
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 261: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"313
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 313: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"333
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 333: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"353
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 353: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"431
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 431: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"493
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 493: __asm("PORTB equ 0Dh");
+[; <" PORTB equ 0Dh ;# ">
+"555
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 555: __asm("PORTC equ 0Eh");
+[; <" PORTC equ 0Eh ;# ">
+"617
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 617: __asm("PORTE equ 010h");
+[; <" PORTE equ 010h ;# ">
+"638
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 638: __asm("PIR1 equ 011h");
+[; <" PIR1 equ 011h ;# ">
+"700
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 700: __asm("PIR2 equ 012h");
+[; <" PIR2 equ 012h ;# ">
+"757
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 757: __asm("PIR3 equ 013h");
+[; <" PIR3 equ 013h ;# ">
+"803
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 803: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"823
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 823: __asm("TMR1 equ 016h");
+[; <" TMR1 equ 016h ;# ">
+"830
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 830: __asm("TMR1L equ 016h");
+[; <" TMR1L equ 016h ;# ">
+"850
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 850: __asm("TMR1H equ 017h");
+[; <" TMR1H equ 017h ;# ">
+"870
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 870: __asm("T1CON equ 018h");
+[; <" T1CON equ 018h ;# ">
+"942
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 942: __asm("T1GCON equ 019h");
+[; <" T1GCON equ 019h ;# ">
+"1019
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1019: __asm("TMR2 equ 01Ah");
+[; <" TMR2 equ 01Ah ;# ">
+"1039
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1039: __asm("PR2 equ 01Bh");
+[; <" PR2 equ 01Bh ;# ">
+"1059
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1059: __asm("T2CON equ 01Ch");
+[; <" T2CON equ 01Ch ;# ">
+"1130
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1130: __asm("CPSCON0 equ 01Eh");
+[; <" CPSCON0 equ 01Eh ;# ">
+"1184
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1184: __asm("CPSCON1 equ 01Fh");
+[; <" CPSCON1 equ 01Fh ;# ">
+"1224
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1224: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"1286
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1286: __asm("TRISB equ 08Dh");
+[; <" TRISB equ 08Dh ;# ">
+"1348
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1348: __asm("TRISC equ 08Eh");
+[; <" TRISC equ 08Eh ;# ">
+"1410
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1410: __asm("TRISE equ 090h");
+[; <" TRISE equ 090h ;# ">
+"1431
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1431: __asm("PIE1 equ 091h");
+[; <" PIE1 equ 091h ;# ">
+"1493
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1493: __asm("PIE2 equ 092h");
+[; <" PIE2 equ 092h ;# ">
+"1550
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1550: __asm("PIE3 equ 093h");
+[; <" PIE3 equ 093h ;# ">
+"1596
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1596: __asm("OPTION_REG equ 095h");
+[; <" OPTION_REG equ 095h ;# ">
+"1679
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1679: __asm("PCON equ 096h");
+[; <" PCON equ 096h ;# ">
+"1730
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1730: __asm("WDTCON equ 097h");
+[; <" WDTCON equ 097h ;# ">
+"1789
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1789: __asm("OSCTUNE equ 098h");
+[; <" OSCTUNE equ 098h ;# ">
+"1847
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1847: __asm("OSCCON equ 099h");
+[; <" OSCCON equ 099h ;# ">
+"1919
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1919: __asm("OSCSTAT equ 09Ah");
+[; <" OSCSTAT equ 09Ah ;# ">
+"1981
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1981: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"1988
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 1988: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"2008
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2008: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"2028
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2028: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"2117
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2117: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"2189
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2189: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"2251
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2251: __asm("LATB equ 010Dh");
+[; <" LATB equ 010Dh ;# ">
+"2313
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2313: __asm("LATC equ 010Eh");
+[; <" LATC equ 010Eh ;# ">
+"2375
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2375: __asm("LATE equ 0110h");
+[; <" LATE equ 0110h ;# ">
+"2396
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2396: __asm("CM1CON0 equ 0111h");
+[; <" CM1CON0 equ 0111h ;# ">
+"2453
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2453: __asm("CM1CON1 equ 0112h");
+[; <" CM1CON1 equ 0112h ;# ">
+"2519
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2519: __asm("CM2CON0 equ 0113h");
+[; <" CM2CON0 equ 0113h ;# ">
+"2576
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2576: __asm("CM2CON1 equ 0114h");
+[; <" CM2CON1 equ 0114h ;# ">
+"2642
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2642: __asm("CMOUT equ 0115h");
+[; <" CMOUT equ 0115h ;# ">
+"2668
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2668: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"2695
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2695: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"2771
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2771: __asm("DACCON0 equ 0118h");
+[; <" DACCON0 equ 0118h ;# ">
+"2832
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2832: __asm("DACCON1 equ 0119h");
+[; <" DACCON1 equ 0119h ;# ">
+"2884
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2884: __asm("SRCON0 equ 011Ah");
+[; <" SRCON0 equ 011Ah ;# ">
+"2955
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 2955: __asm("SRCON1 equ 011Bh");
+[; <" SRCON1 equ 011Bh ;# ">
+"3017
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3017: __asm("APFCON equ 011Dh");
+[; <" APFCON equ 011Dh ;# ">
+"3073
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3073: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"3131
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3131: __asm("ANSELB equ 018Dh");
+[; <" ANSELB equ 018Dh ;# ">
+"3189
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3189: __asm("EEADR equ 0191h");
+[; <" EEADR equ 0191h ;# ">
+"3196
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3196: __asm("EEADRL equ 0191h");
+[; <" EEADRL equ 0191h ;# ">
+"3216
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3216: __asm("EEADRH equ 0192h");
+[; <" EEADRH equ 0192h ;# ">
+"3236
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3236: __asm("EEDAT equ 0193h");
+[; <" EEDAT equ 0193h ;# ">
+"3243
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3243: __asm("EEDATL equ 0193h");
+[; <" EEDATL equ 0193h ;# ">
+"3248
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3248: __asm("EEDATA equ 0193h");
+[; <" EEDATA equ 0193h ;# ">
+"3281
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3281: __asm("EEDATH equ 0194h");
+[; <" EEDATH equ 0194h ;# ">
+"3301
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3301: __asm("EECON1 equ 0195h");
+[; <" EECON1 equ 0195h ;# ">
+"3363
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3363: __asm("EECON2 equ 0196h");
+[; <" EECON2 equ 0196h ;# ">
+"3383
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3383: __asm("RCREG equ 0199h");
+[; <" RCREG equ 0199h ;# ">
+"3403
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3403: __asm("TXREG equ 019Ah");
+[; <" TXREG equ 019Ah ;# ">
+"3423
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3423: __asm("SP1BRG equ 019Bh");
+[; <" SP1BRG equ 019Bh ;# ">
+"3430
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3430: __asm("SP1BRGL equ 019Bh");
+[; <" SP1BRGL equ 019Bh ;# ">
+"3435
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3435: __asm("SPBRG equ 019Bh");
+[; <" SPBRG equ 019Bh ;# ">
+"3439
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3439: __asm("SPBRGL equ 019Bh");
+[; <" SPBRGL equ 019Bh ;# ">
+"3484
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3484: __asm("SP1BRGH equ 019Ch");
+[; <" SP1BRGH equ 019Ch ;# ">
+"3489
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3489: __asm("SPBRGH equ 019Ch");
+[; <" SPBRGH equ 019Ch ;# ">
+"3522
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3522: __asm("RCSTA equ 019Dh");
+[; <" RCSTA equ 019Dh ;# ">
+"3584
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3584: __asm("TXSTA equ 019Eh");
+[; <" TXSTA equ 019Eh ;# ">
+"3646
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3646: __asm("BAUDCON equ 019Fh");
+[; <" BAUDCON equ 019Fh ;# ">
+"3698
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3698: __asm("WPUB equ 020Dh");
+[; <" WPUB equ 020Dh ;# ">
+"3768
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3768: __asm("WPUE equ 0210h");
+[; <" WPUE equ 0210h ;# ">
+"3789
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3789: __asm("SSPBUF equ 0211h");
+[; <" SSPBUF equ 0211h ;# ">
+"3809
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3809: __asm("SSPADD equ 0212h");
+[; <" SSPADD equ 0212h ;# ">
+"3829
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3829: __asm("SSPMSK equ 0213h");
+[; <" SSPMSK equ 0213h ;# ">
+"3849
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3849: __asm("SSPSTAT equ 0214h");
+[; <" SSPSTAT equ 0214h ;# ">
+"3911
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3911: __asm("SSPCON1 equ 0215h");
+[; <" SSPCON1 equ 0215h ;# ">
+"3916
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 3916: __asm("SSPCON equ 0215h");
+[; <" SSPCON equ 0215h ;# ">
+"4049
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4049: __asm("SSPCON2 equ 0216h");
+[; <" SSPCON2 equ 0216h ;# ">
+"4111
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4111: __asm("SSPCON3 equ 0217h");
+[; <" SSPCON3 equ 0217h ;# ">
+"4173
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4173: __asm("CCPR1 equ 0291h");
+[; <" CCPR1 equ 0291h ;# ">
+"4180
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4180: __asm("CCPR1L equ 0291h");
+[; <" CCPR1L equ 0291h ;# ">
+"4200
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4200: __asm("CCPR1H equ 0292h");
+[; <" CCPR1H equ 0292h ;# ">
+"4220
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4220: __asm("CCP1CON equ 0293h");
+[; <" CCP1CON equ 0293h ;# ">
+"4302
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4302: __asm("PWM1CON equ 0294h");
+[; <" PWM1CON equ 0294h ;# ">
+"4378
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4378: __asm("CCP1AS equ 0295h");
+[; <" CCP1AS equ 0295h ;# ">
+"4383
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4383: __asm("ECCP1AS equ 0295h");
+[; <" ECCP1AS equ 0295h ;# ">
+"4552
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4552: __asm("PSTR1CON equ 0296h");
+[; <" PSTR1CON equ 0296h ;# ">
+"4596
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4596: __asm("CCPR2 equ 0298h");
+[; <" CCPR2 equ 0298h ;# ">
+"4603
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4603: __asm("CCPR2L equ 0298h");
+[; <" CCPR2L equ 0298h ;# ">
+"4623
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4623: __asm("CCPR2H equ 0299h");
+[; <" CCPR2H equ 0299h ;# ">
+"4643
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4643: __asm("CCP2CON equ 029Ah");
+[; <" CCP2CON equ 029Ah ;# ">
+"4725
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4725: __asm("PWM2CON equ 029Bh");
+[; <" PWM2CON equ 029Bh ;# ">
+"4801
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4801: __asm("CCP2AS equ 029Ch");
+[; <" CCP2AS equ 029Ch ;# ">
+"4806
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4806: __asm("ECCP2AS equ 029Ch");
+[; <" ECCP2AS equ 029Ch ;# ">
+"4975
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 4975: __asm("PSTR2CON equ 029Dh");
+[; <" PSTR2CON equ 029Dh ;# ">
+"5019
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5019: __asm("CCPTMRS0 equ 029Eh");
+[; <" CCPTMRS0 equ 029Eh ;# ">
+"5107
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5107: __asm("CCPTMRS1 equ 029Fh");
+[; <" CCPTMRS1 equ 029Fh ;# ">
+"5141
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5141: __asm("CCPR3 equ 0311h");
+[; <" CCPR3 equ 0311h ;# ">
+"5148
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5148: __asm("CCPR3L equ 0311h");
+[; <" CCPR3L equ 0311h ;# ">
+"5168
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5168: __asm("CCPR3H equ 0312h");
+[; <" CCPR3H equ 0312h ;# ">
+"5188
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5188: __asm("CCP3CON equ 0313h");
+[; <" CCP3CON equ 0313h ;# ">
+"5270
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5270: __asm("PWM3CON equ 0314h");
+[; <" PWM3CON equ 0314h ;# ">
+"5346
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5346: __asm("CCP3AS equ 0315h");
+[; <" CCP3AS equ 0315h ;# ">
+"5351
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5351: __asm("ECCP3AS equ 0315h");
+[; <" ECCP3AS equ 0315h ;# ">
+"5520
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5520: __asm("PSTR3CON equ 0316h");
+[; <" PSTR3CON equ 0316h ;# ">
+"5564
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5564: __asm("CCPR4 equ 0318h");
+[; <" CCPR4 equ 0318h ;# ">
+"5571
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5571: __asm("CCPR4L equ 0318h");
+[; <" CCPR4L equ 0318h ;# ">
+"5591
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5591: __asm("CCPR4H equ 0319h");
+[; <" CCPR4H equ 0319h ;# ">
+"5611
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5611: __asm("CCP4CON equ 031Ah");
+[; <" CCP4CON equ 031Ah ;# ">
+"5675
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5675: __asm("CCPR5 equ 031Ch");
+[; <" CCPR5 equ 031Ch ;# ">
+"5682
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5682: __asm("CCPR5L equ 031Ch");
+[; <" CCPR5L equ 031Ch ;# ">
+"5702
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5702: __asm("CCPR5H equ 031Dh");
+[; <" CCPR5H equ 031Dh ;# ">
+"5722
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5722: __asm("CCP5CON equ 031Eh");
+[; <" CCP5CON equ 031Eh ;# ">
+"5786
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5786: __asm("IOCBP equ 0394h");
+[; <" IOCBP equ 0394h ;# ">
+"5856
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5856: __asm("IOCBN equ 0395h");
+[; <" IOCBN equ 0395h ;# ">
+"5926
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5926: __asm("IOCBF equ 0396h");
+[; <" IOCBF equ 0396h ;# ">
+"5996
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 5996: __asm("TMR4 equ 0415h");
+[; <" TMR4 equ 0415h ;# ">
+"6016
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6016: __asm("PR4 equ 0416h");
+[; <" PR4 equ 0416h ;# ">
+"6036
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6036: __asm("T4CON equ 0417h");
+[; <" T4CON equ 0417h ;# ">
+"6107
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6107: __asm("TMR6 equ 041Ch");
+[; <" TMR6 equ 041Ch ;# ">
+"6127
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6127: __asm("PR6 equ 041Dh");
+[; <" PR6 equ 041Dh ;# ">
+"6147
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6147: __asm("T6CON equ 041Eh");
+[; <" T6CON equ 041Eh ;# ">
+"6218
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6218: __asm("LCDCON equ 0791h");
+[; <" LCDCON equ 0791h ;# ">
+"6289
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6289: __asm("LCDPS equ 0792h");
+[; <" LCDPS equ 0792h ;# ">
+"6359
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6359: __asm("LCDREF equ 0793h");
+[; <" LCDREF equ 0793h ;# ">
+"6411
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6411: __asm("LCDCST equ 0794h");
+[; <" LCDCST equ 0794h ;# ">
+"6451
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6451: __asm("LCDRL equ 0795h");
+[; <" LCDRL equ 0795h ;# ">
+"6529
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6529: __asm("LCDSE0 equ 0798h");
+[; <" LCDSE0 equ 0798h ;# ">
+"6591
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6591: __asm("LCDSE1 equ 0799h");
+[; <" LCDSE1 equ 0799h ;# ">
+"6653
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6653: __asm("LCDDATA0 equ 07A0h");
+[; <" LCDDATA0 equ 07A0h ;# ">
+"6715
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6715: __asm("LCDDATA1 equ 07A1h");
+[; <" LCDDATA1 equ 07A1h ;# ">
+"6777
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6777: __asm("LCDDATA3 equ 07A3h");
+[; <" LCDDATA3 equ 07A3h ;# ">
+"6839
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6839: __asm("LCDDATA4 equ 07A4h");
+[; <" LCDDATA4 equ 07A4h ;# ">
+"6901
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6901: __asm("LCDDATA6 equ 07A6h");
+[; <" LCDDATA6 equ 07A6h ;# ">
+"6963
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 6963: __asm("LCDDATA7 equ 07A7h");
+[; <" LCDDATA7 equ 07A7h ;# ">
+"7025
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7025: __asm("LCDDATA9 equ 07A9h");
+[; <" LCDDATA9 equ 07A9h ;# ">
+"7087
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7087: __asm("LCDDATA10 equ 07AAh");
+[; <" LCDDATA10 equ 07AAh ;# ">
+"7149
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7149: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"7181
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7181: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"7201
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7201: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"7221
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7221: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"7241
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7241: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"7261
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7261: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"7281
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7281: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"7301
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7301: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"7321
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7321: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"7341
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7341: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"7361
+[; ;c:\PROGRA~1\MICROC~1\xc8\v2.46\pic\include\proc\pic16f1936.h: 7361: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"50 D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 50: void SYSTEM_Initialize(void)
+[v _SYSTEM_Initialize `(v ~T0 @X0 1 ef ]
+"51
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 51: {
+{
+[e :U _SYSTEM_Initialize ]
+[f ]
+"53
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 53:     PIN_MANAGER_Initialize();
+[e ( _PIN_MANAGER_Initialize ..  ]
+"54
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 54:     OSCILLATOR_Initialize();
+[e ( _OSCILLATOR_Initialize ..  ]
+"55
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 55:     WDT_Initialize();
+[e ( _WDT_Initialize ..  ]
+"56
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 56:     ECCP3_Initialize();
+[e ( _ECCP3_Initialize ..  ]
+"57
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 57:     TMR2_Initialize();
+[e ( _TMR2_Initialize ..  ]
+"58
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 58:     TMR1_Initialize();
+[e ( _TMR1_Initialize ..  ]
+"59
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 59:     TMR0_Initialize();
+[e ( _TMR0_Initialize ..  ]
+"60
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 60: }
+[e :UE 373 ]
+}
+"62
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 62: void OSCILLATOR_Initialize(void)
+[v _OSCILLATOR_Initialize `(v ~T0 @X0 1 ef ]
+"63
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 63: {
+{
+[e :U _OSCILLATOR_Initialize ]
+[f ]
+"65
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 65:     OSCCON = 0x70;
+[e = _OSCCON -> -> 112 `i `uc ]
+"67
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 67:     OSCTUNE = 0x00;
+[e = _OSCTUNE -> -> 0 `i `uc ]
+"69
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 69:     BORCON = 0x00;
+[e = _BORCON -> -> 0 `i `uc ]
+"71
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 71:     while(PLLR == 0)
+[e $U 375  ]
+[e :U 376 ]
+"72
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 72:     {
+{
+"73
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 73:     }
+}
+[e :U 375 ]
+"71
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 71:     while(PLLR == 0)
+[e $ == -> _PLLR `i -> 0 `i 376  ]
+[e :U 377 ]
+"74
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 74: }
+[e :UE 374 ]
+}
+"76
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 76: void WDT_Initialize(void)
+[v _WDT_Initialize `(v ~T0 @X0 1 ef ]
+"77
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 77: {
+{
+[e :U _WDT_Initialize ]
+[f ]
+"79
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 79:     WDTCON = 0x16;
+[e = _WDTCON -> -> 22 `i `uc ]
+"80
+[; ;D:\yiming\work\TOYOTA_RX_serial.X\mcc_generated_files\mcc.c: 80: }
+[e :UE 378 ]
+}
